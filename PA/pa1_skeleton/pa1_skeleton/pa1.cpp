@@ -246,12 +246,15 @@ int updateHealthPointsForHitAction(int healthPoints[MAX_NUM_ROBOTS],
                                    int &targetOriginalHealthPoint,
                                    int &targetUpdatedHealthPoint)
 {
+    //find the robot letter in the map
     for(int i = 0; i < mapRows; i++){
         for(int j = 0; j < mapCols; j++){
             if(map[i][j] == robotLetter){
+                //check the direction of the robot
                 switch (directionLetter)
                 {
                 case DIRECTION_EAST:
+                    //check if the target robot is in the range of the weapon
                     if(map[i][j + 1] != CHAR_EMPTY && j + 1 < mapCols){
                         //update the information of target robot letter
                         targetRobotLetter = map[i][j + 1];
@@ -343,12 +346,15 @@ int updateHealthPointsForShootAction(int healthPoints[MAX_NUM_ROBOTS],
                                      int &targetOriginalHealthPoint,
                                      int &targetUpdatedHealthPoint)
 {
+    //find the robot letter in the map
     for(int i = 0; i < mapRows; i++){
         for(int j = 0; j < mapCols; j++){
             if(map[i][j] == robotLetter){
+                //check the direction of the robot
                 switch (directionLetter)
                 {
                 case DIRECTION_EAST:
+                    //check if the target robot is in the range of the weapon
                     for(int k = 1; k <= WEAPON_SHOOT_RANGE; k++){
                         if(map[i][j + k] != CHAR_EMPTY && j + k < mapCols){
                             //update the information of target robot letter
@@ -437,13 +443,17 @@ int updateHealthPointsForShootAction(int healthPoints[MAX_NUM_ROBOTS],
 int updateMapForMoveAction(char map[MAX_ROWS][MAX_COLS], const int mapRows, const int mapCols,
                            const char robotLetter, const char directionLetter, const int moveSteps)
 {
+    //find the robot letter in the map
     for(int i = 0; i < mapRows; i++){
         for(int j = 0; j < mapCols; j++){
             if(map[i][j] == robotLetter){
+                //check the direction of the robot
                 switch (directionLetter){
                     case DIRECTION_EAST:
+                        //check if the robot will move outside the boundary
                         for(int k = 1; k <= moveSteps; k++){
                             if(j + k < mapCols){
+                                //check if the robot will hit another robot along the path
                                 if(map[i][j + k] != CHAR_EMPTY){
                                     return STATUS_ACTION_MOVE_HIT_ANOTHER_ROBOT_ALONG_PATH;
                                 }
@@ -452,6 +462,7 @@ int updateMapForMoveAction(char map[MAX_ROWS][MAX_COLS], const int mapRows, cons
                                 return STATUS_ACTION_MOVE_OUTSIDE_BOUNDARY;
                             }
                         }
+                        //update the map
                         map[i][j] = CHAR_EMPTY;
                         map[i][j + moveSteps] = robotLetter;
                         break;

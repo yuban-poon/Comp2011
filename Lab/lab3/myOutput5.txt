@@ -1,0 +1,2 @@
+Welcome to Lab3: Encryption & Decryption!
+Enter the input file name: Error: Can not open s

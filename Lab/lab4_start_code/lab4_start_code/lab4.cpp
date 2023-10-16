@@ -30,7 +30,6 @@ bool detect_alien_ship(int radar[], int alienID) {
     }
     return false;
     ///////////////////
-
 }
 
 // Task 3: Engage in battle and eliminate all alien ships with a specific ID
@@ -48,7 +47,6 @@ int engage_in_battle(int radar[], int alienID) {
     }
     return count;
     ///////////////////
-    
 }
 
 // Task 4: Count the total number of alien ships currently in radar

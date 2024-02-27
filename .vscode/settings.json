@@ -1,5 +1,11 @@
 {
 	"files.associations": {
-		"iostream": "cpp"
+		"iostream": "cpp",
+		"ostream": "cpp",
+		"string_view": "cpp",
+		"algorithm": "cpp",
+		"new": "cpp",
+		"iomanip": "cpp",
+		"random": "cpp"
 	}
 }

@@ -1,0 +1,832 @@
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 1
+  0 1 2 3 4 5 6 7 
+0:  A B B C C D D 
+1:A A E B C F F D 
+2:G E E H I I F J 
+3:G G H H K I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 1
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:  A E B C F F D 
+2:G E E H I I F J 
+3:G G H H K I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 1
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:  G E H I I F J 
+3:G G H H K I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 1
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G G E H I I F J 
+3:  G H H K I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 4
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:  L M M K N O O 
+5:L L P M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 4
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M M K N O O 
+5:  L P M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 4
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M M K N O O 
+5:L P P M N N Q O 
+6:  R P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 4
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M M K N O O 
+5:L P P M N N Q O 
+6:R R P S T Q Q U 
+7:  R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 1
+  0 1 2 3 4 5 6 7 
+0:A   B B C C D D 
+1:A A E B C F F D 
+2:G E E H I I F J 
+3:G G H H K I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 1
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A   E B C F F D 
+2:G E E H I I F J 
+3:G G H H K I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 1
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G   E H I I F J 
+3:G G H H K I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 1
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G G E H I I F J 
+3:G   H H K I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 4
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L   M M K N O O 
+5:L L P M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 4
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M M K N O O 
+5:L   P M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 4
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M M K N O O 
+5:L P P M N N Q O 
+6:R   P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 4
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M M K N O O 
+5:L P P M N N Q O 
+6:R R P S T Q Q U 
+7:R   S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 1
+  0 1 2 3 4 5 6 7 
+0:A A   B C C D D 
+1:A E B B C F F D 
+2:G E E H I I F J 
+3:G G H H K I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 1
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E   B C F F D 
+2:G E E H I I F J 
+3:G G H H K I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 1
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E   H I I F J 
+3:G G H H K I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 1
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G   H K I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 4
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L   M K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 4
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M M K N O O 
+5:L P   M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 4
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M M K N O O 
+5:L P P M N N Q O 
+6:R P   S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 4
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M M K N O O 
+5:L P P M N N Q O 
+6:R P S S T Q Q U 
+7:R R   S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 1
+  0 1 2 3 4 5 6 7 
+0:A A B   C C D D 
+1:A E B B C F F D 
+2:G E E H I I F J 
+3:G G H H K I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 1
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E B   C F F D 
+2:G E E H I I F J 
+3:G G H H K I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 1
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H   I I F J 
+3:G G H H K I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 1
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H   K I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 4
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M   K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 4
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M M K N O O 
+5:L P M   N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 4
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M M K N O O 
+5:L P P M N N Q O 
+6:R P S   T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 4
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M M K N O O 
+5:L P P M N N Q O 
+6:R P S S T Q Q U 
+7:R R S   T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 2
+  0 1 2 3 4 5 6 7 
+0:A A B B   C D D 
+1:A E E B C C F D 
+2:G E H H I F F J 
+3:G G H K I I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 2
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B   C F D 
+2:G E H H I F F J 
+3:G G H K I I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 2
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H   I F J 
+3:G G H K I I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 2
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K   I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 3
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M K   N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 3
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M K N N O O 
+5:L P M M   N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 3
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M K N N O O 
+5:L P M M N Q Q O 
+6:R P P S   T Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 3
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M K N N O O 
+5:L P M M N Q Q O 
+6:R P P S T T Q U 
+7:R R S S   T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 2
+  0 1 2 3 4 5 6 7 
+0:A A B B C   D D 
+1:A E E B C C F D 
+2:G E H H I F F J 
+3:G G H K I I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 2
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C   F D 
+2:G E H H I F F J 
+3:G G H K I I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 2
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I   F J 
+3:G G H K I I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 2
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K I   J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 3
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M K N   O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 3
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M K N N O O 
+5:L P M M N   Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 3
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M K N N O O 
+5:L P M M N Q Q O 
+6:R P P S T   Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 3
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M K N N O O 
+5:L P M M N Q Q O 
+6:R P P S T T Q U 
+7:R R S S T   U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 2
+  0 1 2 3 4 5 6 7 
+0:A A B B C C   D 
+1:A E E B C F D D 
+2:G E H H I F F J 
+3:G G H K I I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 2
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F   D 
+2:G E H H I F F J 
+3:G G H K I I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 2
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I F   J 
+3:G G H K I I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 2
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I F J J 
+3:G G H K I I   J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 3
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M K N N   O 
+5:L P M M N Q O O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 3
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M K N N O O 
+5:L P M M N Q   O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 3
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M K N N O O 
+5:L P M M N Q Q O 
+6:R P P S T Q   U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 3
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M K N N O O 
+5:L P M M N Q Q O 
+6:R P P S T Q U U 
+7:R R S S T T   U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 2
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D   
+1:A E E B C F D D 
+2:G E H H I F F J 
+3:G G H K I I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 2
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F D   
+2:G E H H I F F J 
+3:G G H K I I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 2
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I F J   
+3:G G H K I I J J 
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 2
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I F J J 
+3:G G H K I I J   
+4:L L M K K N O O 
+5:L P M M N N Q O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 3
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M K N N O   
+5:L P M M N Q O O 
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 3
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M K N N O O 
+5:L P M M N Q O   
+6:R P P S T Q Q U 
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 3
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M K N N O O 
+5:L P M M N Q Q O 
+6:R P P S T Q U   
+7:R R S S T T U U 
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode: 
+Quadrant for the empty cell: 3
+  0 1 2 3 4 5 6 7 
+0:A A B B C C D D 
+1:A E E B C F F D 
+2:G E H H I I F J 
+3:G G H K K I J J 
+4:L L M K N N O O 
+5:L P M M N Q Q O 
+6:R P P S T Q U U 
+7:R R S S T T U   

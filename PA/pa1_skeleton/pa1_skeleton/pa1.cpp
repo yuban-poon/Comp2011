@@ -253,71 +253,70 @@ int updateHealthPointsForHitAction(int healthPoints[MAX_NUM_ROBOTS],
                 //check the direction of the robot
                 switch (directionLetter)
                 {
-                case DIRECTION_EAST:
-                    //check if the target robot is in the range of the weapon
-                    if(map[i][j + 1] != CHAR_EMPTY && j + 1 < mapCols){
-                        //update the information of target robot letter
-                        targetRobotLetter = map[i][j + 1];
-                        targetOriginalHealthPoint = healthPoints[robotLetterToArrayIndex(targetRobotLetter)];
-                        targetUpdatedHealthPoint = (targetOriginalHealthPoint - WEAPON_HIT_DAMAGE < 0) ? 0 : targetOriginalHealthPoint - WEAPON_HIT_DAMAGE;
-                        healthPoints[robotLetterToArrayIndex(targetRobotLetter)] = targetUpdatedHealthPoint;
-                        if (targetUpdatedHealthPoint == 0)
-                        {
-                            map[i][j + 1] = CHAR_EMPTY;
+                    case DIRECTION_EAST:
+                        //check if the target robot is in the range of the weapon
+                        if(map[i][j + 1] != CHAR_EMPTY && j + 1 < mapCols){
+                            //update the information of target robot letter
+                            targetRobotLetter = map[i][j + 1];
+                            targetOriginalHealthPoint = healthPoints[robotLetterToArrayIndex(targetRobotLetter)];
+                            targetUpdatedHealthPoint = (targetOriginalHealthPoint - WEAPON_HIT_DAMAGE < 0) ? 0 : targetOriginalHealthPoint - WEAPON_HIT_DAMAGE;
+                            healthPoints[robotLetterToArrayIndex(targetRobotLetter)] = targetUpdatedHealthPoint;
+                            if (targetUpdatedHealthPoint == 0)
+                            {
+                                map[i][j + 1] = CHAR_EMPTY;
+                            }
+                            return STATUS_ACTION_WEAPON_SUCCESS;
                         }
-                        return STATUS_ACTION_WEAPON_SUCCESS;
-                    }
-                    break;
-                case DIRECTION_WEST:
-                    if(map[i][j - 1] != CHAR_EMPTY && j - 1 >= 0){
-                        //update the information of target robot letter
-                        targetRobotLetter = map[i][j - 1];
-                        targetOriginalHealthPoint = healthPoints[robotLetterToArrayIndex(targetRobotLetter)];
-                        targetUpdatedHealthPoint = (targetOriginalHealthPoint - WEAPON_HIT_DAMAGE < 0) ? 0 : targetOriginalHealthPoint - WEAPON_HIT_DAMAGE;
-                        healthPoints[robotLetterToArrayIndex(targetRobotLetter)] = targetUpdatedHealthPoint;
-                        if (targetUpdatedHealthPoint == 0)
-                        {
-                            map[i][j - 1] = CHAR_EMPTY;
+                        break;
+                    case DIRECTION_WEST:
+                        if(map[i][j - 1] != CHAR_EMPTY && j - 1 >= 0){
+                            //update the information of target robot letter
+                            targetRobotLetter = map[i][j - 1];
+                            targetOriginalHealthPoint = healthPoints[robotLetterToArrayIndex(targetRobotLetter)];
+                            targetUpdatedHealthPoint = (targetOriginalHealthPoint - WEAPON_HIT_DAMAGE < 0) ? 0 : targetOriginalHealthPoint - WEAPON_HIT_DAMAGE;
+                            healthPoints[robotLetterToArrayIndex(targetRobotLetter)] = targetUpdatedHealthPoint;
+                            if (targetUpdatedHealthPoint == 0)
+                            {
+                                map[i][j - 1] = CHAR_EMPTY;
+                            }
+                            return STATUS_ACTION_WEAPON_SUCCESS;
                         }
-                        return STATUS_ACTION_WEAPON_SUCCESS;
-                    }
-                    break;
-                case DIRECTION_SOUTH:
-                    if(map[i + 1][j] != CHAR_EMPTY && i + 1 < mapRows){
-                        //update the information of target robot letter
-                        targetRobotLetter = map[i + 1][j];
-                        targetOriginalHealthPoint = healthPoints[robotLetterToArrayIndex(targetRobotLetter)];
-                        targetUpdatedHealthPoint = (targetOriginalHealthPoint - WEAPON_HIT_DAMAGE < 0) ? 0 : targetOriginalHealthPoint - WEAPON_HIT_DAMAGE;
-                        healthPoints[robotLetterToArrayIndex(targetRobotLetter)] = targetUpdatedHealthPoint;
-                        if (targetUpdatedHealthPoint == 0)
-                        {
-                            map[i + 1][j] = CHAR_EMPTY;
+                        break;
+                    case DIRECTION_SOUTH:
+                        if(map[i + 1][j] != CHAR_EMPTY && i + 1 < mapRows){
+                            //update the information of target robot letter
+                            targetRobotLetter = map[i + 1][j];
+                            targetOriginalHealthPoint = healthPoints[robotLetterToArrayIndex(targetRobotLetter)];
+                            targetUpdatedHealthPoint = (targetOriginalHealthPoint - WEAPON_HIT_DAMAGE < 0) ? 0 : targetOriginalHealthPoint - WEAPON_HIT_DAMAGE;
+                            healthPoints[robotLetterToArrayIndex(targetRobotLetter)] = targetUpdatedHealthPoint;
+                            if (targetUpdatedHealthPoint == 0)
+                            {
+                                map[i + 1][j] = CHAR_EMPTY;
+                            }
+                            return STATUS_ACTION_WEAPON_SUCCESS;
                         }
-                        return STATUS_ACTION_WEAPON_SUCCESS;
-                    }
-                    break;
-                case DIRECTION_NORTH:
-                    if(map[i - 1][j] != CHAR_EMPTY && i - 1 >= 0){
-                        //update the information of target robot letter
-                        targetRobotLetter = map[i - 1][j];
-                        targetOriginalHealthPoint = healthPoints[robotLetterToArrayIndex(targetRobotLetter)];
-                        targetUpdatedHealthPoint = (targetOriginalHealthPoint - WEAPON_HIT_DAMAGE < 0) ? 0 : targetOriginalHealthPoint - WEAPON_HIT_DAMAGE;
-                        healthPoints[robotLetterToArrayIndex(targetRobotLetter)] = targetUpdatedHealthPoint;
-                        if (targetUpdatedHealthPoint == 0)
-                        {
-                            map[i - 1][j] = CHAR_EMPTY;
+                        break;
+                    case DIRECTION_NORTH:
+                        if(map[i - 1][j] != CHAR_EMPTY && i - 1 >= 0){
+                            //update the information of target robot letter
+                            targetRobotLetter = map[i - 1][j];
+                            targetOriginalHealthPoint = healthPoints[robotLetterToArrayIndex(targetRobotLetter)];
+                            targetUpdatedHealthPoint = (targetOriginalHealthPoint - WEAPON_HIT_DAMAGE < 0) ? 0 : targetOriginalHealthPoint - WEAPON_HIT_DAMAGE;
+                            healthPoints[robotLetterToArrayIndex(targetRobotLetter)] = targetUpdatedHealthPoint;
+                            if (targetUpdatedHealthPoint == 0)
+                            {
+                                map[i - 1][j] = CHAR_EMPTY;
+                            }
+                            return STATUS_ACTION_WEAPON_SUCCESS;
                         }
-                        return STATUS_ACTION_WEAPON_SUCCESS;
-                    }
-                    break;
-                default:
-                    return STATUS_ACTION_WEAPON_NOT_IMPLEMENTED;
+                        break;
+                    default:
+                        return STATUS_ACTION_WEAPON_FAIL;
                 }
-                return STATUS_ACTION_WEAPON_FAIL;
             }
         }
     }
-    return STATUS_ACTION_WEAPON_NOT_IMPLEMENTED;
+    return STATUS_ACTION_WEAPON_FAIL;
 }
 
 // TODO:
@@ -353,79 +352,78 @@ int updateHealthPointsForShootAction(int healthPoints[MAX_NUM_ROBOTS],
                 //check the direction of the robot
                 switch (directionLetter)
                 {
-                case DIRECTION_EAST:
-                    //check if the target robot is in the range of the weapon
-                    for(int k = 1; k <= WEAPON_SHOOT_RANGE; k++){
-                        if(map[i][j + k] != CHAR_EMPTY && j + k < mapCols){
-                            //update the information of target robot letter
-                            targetRobotLetter = map[i][j + k];
-                            targetOriginalHealthPoint = healthPoints[robotLetterToArrayIndex(targetRobotLetter)];
-                            targetUpdatedHealthPoint = (targetOriginalHealthPoint - WEAPON_SHOOT_DAMAGE < 0) ? 0 : targetOriginalHealthPoint - WEAPON_SHOOT_DAMAGE;
-                            healthPoints[robotLetterToArrayIndex(targetRobotLetter)] = targetUpdatedHealthPoint;
-                            if (targetUpdatedHealthPoint == 0)
-                            {
-                                map[i][j + k] = CHAR_EMPTY;
+                    case DIRECTION_EAST:
+                        //check if the target robot is in the range of the weapon
+                        for(int k = 1; k <= WEAPON_SHOOT_RANGE; k++){
+                            if(map[i][j + k] != CHAR_EMPTY && j + k < mapCols){
+                                //update the information of target robot letter
+                                targetRobotLetter = map[i][j + k];
+                                targetOriginalHealthPoint = healthPoints[robotLetterToArrayIndex(targetRobotLetter)];
+                                targetUpdatedHealthPoint = (targetOriginalHealthPoint - WEAPON_SHOOT_DAMAGE < 0) ? 0 : targetOriginalHealthPoint - WEAPON_SHOOT_DAMAGE;
+                                healthPoints[robotLetterToArrayIndex(targetRobotLetter)] = targetUpdatedHealthPoint;
+                                if (targetUpdatedHealthPoint == 0)
+                                {
+                                    map[i][j + k] = CHAR_EMPTY;
+                                }
+                                return STATUS_ACTION_WEAPON_SUCCESS;
                             }
-                            return STATUS_ACTION_WEAPON_SUCCESS;
                         }
-                    }
-                    break;
-                case DIRECTION_WEST:
-                    for(int k = 1; k <= WEAPON_SHOOT_RANGE; k++){
-                        if(map[i][j - k] != CHAR_EMPTY && j - k >= 0){
-                            //update the information of target robot letter
-                            targetRobotLetter = map[i][j - k];
-                            targetOriginalHealthPoint = healthPoints[robotLetterToArrayIndex(targetRobotLetter)];
-                            targetUpdatedHealthPoint = (targetOriginalHealthPoint - WEAPON_SHOOT_DAMAGE < 0) ? 0 : targetOriginalHealthPoint - WEAPON_SHOOT_DAMAGE;
-                            healthPoints[robotLetterToArrayIndex(targetRobotLetter)] = targetUpdatedHealthPoint;
-                            if (targetUpdatedHealthPoint == 0)
-                            {
-                                map[i][j - k] = CHAR_EMPTY;
+                        break;
+                    case DIRECTION_WEST:
+                        for(int k = 1; k <= WEAPON_SHOOT_RANGE; k++){
+                            if(map[i][j - k] != CHAR_EMPTY && j - k >= 0){
+                                //update the information of target robot letter
+                                targetRobotLetter = map[i][j - k];
+                                targetOriginalHealthPoint = healthPoints[robotLetterToArrayIndex(targetRobotLetter)];
+                                targetUpdatedHealthPoint = (targetOriginalHealthPoint - WEAPON_SHOOT_DAMAGE < 0) ? 0 : targetOriginalHealthPoint - WEAPON_SHOOT_DAMAGE;
+                                healthPoints[robotLetterToArrayIndex(targetRobotLetter)] = targetUpdatedHealthPoint;
+                                if (targetUpdatedHealthPoint == 0)
+                                {
+                                    map[i][j - k] = CHAR_EMPTY;
+                                }
+                                return STATUS_ACTION_WEAPON_SUCCESS;
                             }
-                            return STATUS_ACTION_WEAPON_SUCCESS;
                         }
-                    }
-                    break;
-                case DIRECTION_SOUTH:
-                    for(int k = 1; k <= WEAPON_SHOOT_RANGE; k++){
-                        if(map[i + k][j] != CHAR_EMPTY && i + k < mapRows){
-                            //update the information of target robot letter
-                            targetRobotLetter = map[i + k][j];
-                            targetOriginalHealthPoint = healthPoints[robotLetterToArrayIndex(targetRobotLetter)];
-                            targetUpdatedHealthPoint = (targetOriginalHealthPoint - WEAPON_SHOOT_DAMAGE < 0) ? 0 : targetOriginalHealthPoint - WEAPON_SHOOT_DAMAGE;
-                            healthPoints[robotLetterToArrayIndex(targetRobotLetter)] = targetUpdatedHealthPoint;
-                            if (targetUpdatedHealthPoint == 0)
-                            {
-                                map[i + k][j] = CHAR_EMPTY;
+                        break;
+                    case DIRECTION_SOUTH:
+                        for(int k = 1; k <= WEAPON_SHOOT_RANGE; k++){
+                            if(map[i + k][j] != CHAR_EMPTY && i + k < mapRows){
+                                //update the information of target robot letter
+                                targetRobotLetter = map[i + k][j];
+                                targetOriginalHealthPoint = healthPoints[robotLetterToArrayIndex(targetRobotLetter)];
+                                targetUpdatedHealthPoint = (targetOriginalHealthPoint - WEAPON_SHOOT_DAMAGE < 0) ? 0 : targetOriginalHealthPoint - WEAPON_SHOOT_DAMAGE;
+                                healthPoints[robotLetterToArrayIndex(targetRobotLetter)] = targetUpdatedHealthPoint;
+                                if (targetUpdatedHealthPoint == 0)
+                                {
+                                    map[i + k][j] = CHAR_EMPTY;
+                                }
+                                return STATUS_ACTION_WEAPON_SUCCESS;
                             }
-                            return STATUS_ACTION_WEAPON_SUCCESS;
                         }
-                    }
-                    break;
-                case DIRECTION_NORTH:
-                    for(int k = 1; k <= WEAPON_SHOOT_RANGE; k++){
-                        if(map[i - k][j] != CHAR_EMPTY && i - k >= 0){
-                            //update the information of target robot letter
-                            targetRobotLetter = map[i - k][j];
-                            targetOriginalHealthPoint = healthPoints[robotLetterToArrayIndex(targetRobotLetter)];
-                            targetUpdatedHealthPoint = (targetOriginalHealthPoint - WEAPON_SHOOT_DAMAGE < 0) ? 0 : targetOriginalHealthPoint - WEAPON_SHOOT_DAMAGE;
-                            healthPoints[robotLetterToArrayIndex(targetRobotLetter)] = targetUpdatedHealthPoint;
-                            if (targetUpdatedHealthPoint == 0)
-                            {
-                               map[i - k][j] = CHAR_EMPTY;
+                        break;
+                    case DIRECTION_NORTH:
+                        for(int k = 1; k <= WEAPON_SHOOT_RANGE; k++){
+                            if(map[i - k][j] != CHAR_EMPTY && i - k >= 0){
+                                //update the information of target robot letter
+                                targetRobotLetter = map[i - k][j];
+                                targetOriginalHealthPoint = healthPoints[robotLetterToArrayIndex(targetRobotLetter)];
+                                targetUpdatedHealthPoint = (targetOriginalHealthPoint - WEAPON_SHOOT_DAMAGE < 0) ? 0 : targetOriginalHealthPoint - WEAPON_SHOOT_DAMAGE;
+                                healthPoints[robotLetterToArrayIndex(targetRobotLetter)] = targetUpdatedHealthPoint;
+                                if (targetUpdatedHealthPoint == 0)
+                                {
+                                map[i - k][j] = CHAR_EMPTY;
+                                }
+                                return STATUS_ACTION_WEAPON_SUCCESS;
                             }
-                            return STATUS_ACTION_WEAPON_SUCCESS;
                         }
-                    }
-                    break;
-                default:
-                    return STATUS_ACTION_WEAPON_NOT_IMPLEMENTED;
+                        break;
+                    default:
+                        return STATUS_ACTION_WEAPON_FAIL;
                 }
-                return STATUS_ACTION_WEAPON_FAIL;
             }
         }
     }
-    return STATUS_ACTION_WEAPON_NOT_IMPLEMENTED;
+    return STATUS_ACTION_WEAPON_FAIL;
 }
 
 // TODO:
@@ -508,14 +506,12 @@ int updateMapForMoveAction(char map[MAX_ROWS][MAX_COLS], const int mapRows, cons
                         map[i][j] = CHAR_EMPTY;
                         map[i - moveSteps][j] = robotLetter;
                         break;
-                    default:
-                        return STATUS_ACTION_MOVE_NOT_IMPLMENTED;
                 }
                 return STATUS_ACTION_MOVE_SUCCESS;
             }
         }
     }
-    return STATUS_ACTION_MOVE_NOT_IMPLMENTED;
+    return -1;//default return value
 }
 
 /**
